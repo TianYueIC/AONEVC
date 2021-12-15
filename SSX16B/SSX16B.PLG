@@ -1,0 +1,643 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AOneLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP441.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AOneLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\CoolBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\CoolTabCtrl.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPDisAsm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\gotoline.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\SCBButton.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\SizingControlBar.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP441.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP442.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AOneLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\AOneLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP442.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP443.tmp" with contents
+[
+/nologo /out:"..\Lib\AOneLibR.lib" 
+.\Release\CoolBar.obj
+.\Release\CoolTabCtrl.obj
+.\Release\DSPCode.obj
+.\Release\DSPCode2.obj
+.\Release\DSPDisAsm.obj
+.\Release\gotoline.obj
+.\Release\MasmParse.obj
+.\Release\MasmParse2.obj
+.\Release\SCBButton.obj
+.\Release\SizingControlBar.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP443.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CoolBar.cpp
+CoolTabCtrl.cpp
+DSPCode.cpp
+DSPCode2.cpp
+DSPDisAsm.cpp
+gotoline.cpp
+MasmParse.cpp
+MasmParse2.cpp
+SCBButton.cpp
+SizingControlBar.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: dspasm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP444.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/dspasm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPDisAsm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse2.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP444.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\lib\dspasmR.lib"  .\Release\DSPCode.obj .\Release\DSPCode2.obj .\Release\DSPDisAsm.obj .\Release\MasmParse.obj .\Release\MasmParse2.obj "
+<h3>Output Window</h3>
+Compiling...
+DSPCode.cpp
+DSPCode2.cpp
+DSPDisAsm.cpp
+MasmParse.cpp
+MasmParse2.cpp
+Creating library...
+<h3>
+--------------------Configuration: ECCLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP445.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ECCLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt1.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt3.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt4.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt5.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt6.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MUint.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MUIntAsm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP445.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP446.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ECCLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP446.tmp" 
+Creating command line "link.exe -lib /nologo /out:"ECCLibR.lib"  .\Release\MSegInt1.obj .\Release\MSegInt3.obj .\Release\MSegInt4.obj .\Release\MSegInt5.obj .\Release\MSegInt6.obj .\Release\MUint.obj .\Release\MUIntAsm.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MSegInt1.cpp
+MSegInt3.cpp
+MSegInt4.cpp
+MSegInt5.cpp
+MSegInt6.cpp
+MUint.cpp
+MUIntAsm.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Emulator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP447.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Emulator.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\Emulator\Src\Emulator.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP447.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP448.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Emulator.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\Emulator\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP448.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\Emulator.lib"  .\Release\Emulator.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Emulator.cpp
+Creating library...
+<h3>
+--------------------Configuration: Library - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP449.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Library.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\ConstString.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\CoreThread.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\Fifos.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\FileName.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\MemCDC.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\Stacks.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP449.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Library.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\Library\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\Lib\LibraryR.lib"  .\Release\ConstString.obj .\Release\CoreThread.obj .\Release\Fifos.obj .\Release\FileName.obj .\Release\MemCDC.obj .\Release\Stacks.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ConstString.cpp
+CoreThread.cpp
+Fifos.cpp
+FileName.cpp
+MemCDC.cpp
+Stacks.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: SSX16BEmulator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SSX16BEmulator.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\IntSource.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\RC6.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\SSX16BEmulator.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\VHardware.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44B.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SSX16BEmulator.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\SSX16BEmulator.lib"  .\Release\IntSource.obj .\Release\RC6.obj .\Release\SSX16BEmulator.obj .\Release\StdAfx.obj .\Release\VHardware.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+IntSource.cpp
+RC6.cpp
+SSX16BEmulator.cpp
+VHardware.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: SSX16B - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/SSX16B.res" /d "NDEBUG" "E:\work\Xuepeng\AONEVC_060613\SSX16B\SSX16B.rc"" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SSX16B.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\ASDSPRAMview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\ChildFrm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\emulatorconfigdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\gotoline.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\LineView.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\MainFrm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\memeryview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\MessageBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\registerview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romabcdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\RomData.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romdialog.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\ROMEData.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\ROMEData1.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romsetupdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\sourceview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\SSX16B.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bcodedoc.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bdoc.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bmake.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SXX16Bconfigdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\ViewBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\watchview.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44D.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SSX16B.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44E.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44F.tmp" with contents
+[
+..\Lib\LexR.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SSX16B.pdb" /machine:I386 /out:"Release/SSX16B.exe" 
+.\Release\ASDSPRAMview.obj
+.\Release\ChildFrm.obj
+.\Release\emulatorconfigdlg.obj
+.\Release\gotoline.obj
+.\Release\LineView.obj
+.\Release\MainFrm.obj
+.\Release\memeryview.obj
+.\Release\MessageBar.obj
+.\Release\registerview.obj
+.\Release\romabcdlg.obj
+.\Release\RomData.obj
+.\Release\romdialog.obj
+.\Release\ROMEData.obj
+.\Release\ROMEData1.obj
+.\Release\romsetupdlg.obj
+.\Release\sourceview.obj
+.\Release\SSX16B.obj
+.\Release\SSX16Bcodedoc.obj
+.\Release\SSX16Bdoc.obj
+.\Release\SSX16Bmake.obj
+.\Release\SSX16Bview.obj
+.\Release\StdAfx.obj
+.\Release\SXX16Bconfigdlg.obj
+.\Release\ViewBar.obj
+.\Release\watchview.obj
+.\Release\SSX16B.res
+\work\Xuepeng\AONEVC_060613\Lib\AOneLibR.lib
+\work\Xuepeng\AONEVC_060613\lib\dspasmR.lib
+\work\Xuepeng\AONEVC_060613\ECCLib\ECCLibR.lib
+\work\Xuepeng\AONEVC_060613\Emulator\Release\Emulator.lib
+\work\Xuepeng\AONEVC_060613\Lib\LibraryR.lib
+\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Release\SSX16BEmulator.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP44F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ASDSPRAMview.cpp
+ChildFrm.cpp
+emulatorconfigdlg.cpp
+gotoline.cpp
+LineView.cpp
+MainFrm.cpp
+memeryview.cpp
+MessageBar.cpp
+registerview.cpp
+romabcdlg.cpp
+RomData.cpp
+romdialog.cpp
+ROMEData.cpp
+ROMEData1.cpp
+romsetupdlg.cpp
+sourceview.cpp
+SSX16B.cpp
+SSX16Bcodedoc.cpp
+SSX16Bdoc.cpp
+SSX16Bmake.cpp
+Generating Code...
+Compiling...
+SSX16Bview.cpp
+SXX16Bconfigdlg.cpp
+ViewBar.cpp
+watchview.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SSX16B.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AOneLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP451.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/AOneLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\CoolBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\CoolTabCtrl.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPDisAsm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\gotoline.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\SCBButton.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Bar\Src\SizingControlBar.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP451.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP452.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/AOneLib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\AOneLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP452.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP453.tmp" with contents
+[
+/nologo /out:"..\Lib\AOneLibD.lib" 
+.\Debug\CoolBar.obj
+.\Debug\CoolTabCtrl.obj
+.\Debug\DSPCode.obj
+.\Debug\DSPCode2.obj
+.\Debug\DSPDisAsm.obj
+.\Debug\gotoline.obj
+.\Debug\MasmParse.obj
+.\Debug\MasmParse2.obj
+.\Debug\SCBButton.obj
+.\Debug\SizingControlBar.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP453.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CoolBar.cpp
+CoolTabCtrl.cpp
+DSPCode.cpp
+DSPCode2.cpp
+DSPDisAsm.cpp
+gotoline.cpp
+MasmParse.cpp
+MasmParse2.cpp
+SCBButton.cpp
+SizingControlBar.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: dspasm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP454.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/dspasm.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPCode2.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\DSPDisAsm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse.cpp"
+"E:\work\Xuepeng\AONEVC_060613\dspasm\Src\MasmParse2.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP454.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\lib\dspasmD.lib"  .\Debug\DSPCode.obj .\Debug\DSPCode2.obj .\Debug\DSPDisAsm.obj .\Debug\MasmParse.obj .\Debug\MasmParse2.obj "
+<h3>Output Window</h3>
+Compiling...
+DSPCode.cpp
+DSPCode2.cpp
+DSPDisAsm.cpp
+MasmParse.cpp
+MasmParse2.cpp
+Creating library...
+<h3>
+--------------------Configuration: ECCLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP455.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ECCLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt1.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt3.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt4.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt5.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MSegInt6.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MUint.cpp"
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\Src\MUIntAsm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP455.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP456.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ECCLib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\ECCLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP456.tmp" 
+Creating command line "link.exe -lib /nologo /out:"ECCLibD.lib"  .\Debug\MSegInt1.obj .\Debug\MSegInt3.obj .\Debug\MSegInt4.obj .\Debug\MSegInt5.obj .\Debug\MSegInt6.obj .\Debug\MUint.obj .\Debug\MUIntAsm.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MSegInt1.cpp
+MSegInt3.cpp
+MSegInt4.cpp
+MSegInt5.cpp
+MSegInt6.cpp
+MUint.cpp
+MUIntAsm.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Emulator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP457.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Emulator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\Emulator\Src\Emulator.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP457.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP458.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Emulator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\Emulator\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP458.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\Emulator.lib"  .\Debug\Emulator.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Emulator.cpp
+Creating library...
+<h3>
+--------------------Configuration: Library - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP459.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Library.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\ConstString.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\CoreThread.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\Fifos.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\FileName.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\MemCDC.cpp"
+"E:\work\Xuepeng\AONEVC_060613\Library\Src\Stacks.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP459.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Library.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\Library\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\Lib\LibraryD.lib"  .\Debug\ConstString.obj .\Debug\CoreThread.obj .\Debug\Fifos.obj .\Debug\FileName.obj .\Debug\MemCDC.obj .\Debug\Stacks.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ConstString.cpp
+CoreThread.cpp
+Fifos.cpp
+FileName.cpp
+MemCDC.cpp
+Stacks.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: SSX16BEmulator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SSX16BEmulator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\IntSource.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\RC6.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\SSX16BEmulator.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Src\VHardware.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45B.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SSX16BEmulator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16BEmulator\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\SSX16BEmulator.lib"  .\Debug\IntSource.obj .\Debug\RC6.obj .\Debug\SSX16BEmulator.obj .\Debug\StdAfx.obj .\Debug\VHardware.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+IntSource.cpp
+RC6.cpp
+SSX16BEmulator.cpp
+VHardware.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: SSX16B - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SSX16B.res" /d "_DEBUG" /d "_AFXDLL" "E:\work\Xuepeng\AONEVC_060613\SSX16B\SSX16B.rc"" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SSX16B.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\ASDSPRAMview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\ChildFrm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\emulatorconfigdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\gotoline.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\LineView.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\MainFrm.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\memeryview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\MessageBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\registerview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romabcdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\RomData.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romdialog.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\ROMEData.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\ROMEData1.cpp"
+"E:\work\Xuepeng\AONEVC_060613\CommonDialog\Src\romsetupdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\sourceview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\SSX16B.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bcodedoc.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bdoc.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bmake.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SSX16Bview.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\SXX16Bconfigdlg.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\ViewBar.cpp"
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\Src\watchview.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45D.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SSX16B.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\work\Xuepeng\AONEVC_060613\SSX16B\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45E.tmp" 
+Creating temporary file "D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45F.tmp" with contents
+[
+..\Lib\LexD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SSX16B.pdb" /debug /machine:I386 /out:"Debug/SSX16B.exe" /pdbtype:sept 
+.\Debug\ASDSPRAMview.obj
+.\Debug\ChildFrm.obj
+.\Debug\emulatorconfigdlg.obj
+.\Debug\gotoline.obj
+.\Debug\LineView.obj
+.\Debug\MainFrm.obj
+.\Debug\memeryview.obj
+.\Debug\MessageBar.obj
+.\Debug\registerview.obj
+.\Debug\romabcdlg.obj
+.\Debug\RomData.obj
+.\Debug\romdialog.obj
+.\Debug\ROMEData.obj
+.\Debug\ROMEData1.obj
+.\Debug\romsetupdlg.obj
+.\Debug\sourceview.obj
+.\Debug\SSX16B.obj
+.\Debug\SSX16Bcodedoc.obj
+.\Debug\SSX16Bdoc.obj
+.\Debug\SSX16Bmake.obj
+.\Debug\SSX16Bview.obj
+.\Debug\StdAfx.obj
+.\Debug\SXX16Bconfigdlg.obj
+.\Debug\ViewBar.obj
+.\Debug\watchview.obj
+.\Debug\SSX16B.res
+\work\Xuepeng\AONEVC_060613\Lib\AOneLibD.lib
+\work\Xuepeng\AONEVC_060613\lib\dspasmD.lib
+\work\Xuepeng\AONEVC_060613\ECCLib\ECCLibD.lib
+\work\Xuepeng\AONEVC_060613\Emulator\Debug\Emulator.lib
+\work\Xuepeng\AONEVC_060613\Lib\LibraryD.lib
+\work\Xuepeng\AONEVC_060613\SSX16BEmulator\Debug\SSX16BEmulator.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\MENG~1.MEN\LOCALS~1\Temp\RSP45F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ASDSPRAMview.cpp
+ChildFrm.cpp
+emulatorconfigdlg.cpp
+gotoline.cpp
+LineView.cpp
+MainFrm.cpp
+memeryview.cpp
+MessageBar.cpp
+registerview.cpp
+romabcdlg.cpp
+RomData.cpp
+romdialog.cpp
+ROMEData.cpp
+ROMEData1.cpp
+romsetupdlg.cpp
+sourceview.cpp
+SSX16B.cpp
+SSX16Bcodedoc.cpp
+SSX16Bdoc.cpp
+SSX16Bmake.cpp
+Generating Code...
+Compiling...
+SSX16Bview.cpp
+SXX16Bconfigdlg.cpp
+ViewBar.cpp
+watchview.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SSX16B.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

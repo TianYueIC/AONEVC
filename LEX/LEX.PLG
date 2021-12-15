@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lex - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/lex.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\lex\Src\AsmLex.cpp"
+"C:\xphome\AONEVC\lex\Src\ConstLex.cpp"
+"C:\xphome\AONEVC\lex\Src\ConstParse.cpp"
+"C:\xphome\AONEVC\lex\Src\CSource.cpp"
+"C:\xphome\AONEVC\lex\Src\DSPCLex.cpp"
+"C:\xphome\AONEVC\lex\Src\FaultMsg.cpp"
+"C:\xphome\AONEVC\lex\Src\FilterSource.cpp"
+"C:\xphome\AONEVC\lex\Src\HashAsmLex.cpp"
+"C:\xphome\AONEVC\lex\Src\HashDisAsm.cpp"
+"C:\xphome\AONEVC\lex\Src\LALR.cpp"
+"C:\xphome\AONEVC\lex\Src\Lex.cpp"
+"C:\xphome\AONEVC\lex\Src\ParamList.cpp"
+"C:\xphome\AONEVC\lex\Src\PreDefine.cpp"
+"C:\xphome\AONEVC\lex\Src\PreSource.cpp"
+"C:\xphome\AONEVC\lex\Src\TextSource.cpp"
+"C:\xphome\AONEVC\lex\Src\uECCIPLex.cpp"
+"C:\xphome\AONEVC\lex\Src\uECCIPParse.cpp"
+"C:\xphome\AONEVC\lex\Src\uECCIPParse2.cpp"
+"C:\xphome\AONEVC\lex\Src\uHashLex.cpp"
+"C:\xphome\AONEVC\lex\Src\uHashParse.cpp"
+"C:\xphome\AONEVC\lex\Src\uHashParse2.cpp"
+"C:\xphome\AONEVC\lex\Src\UPLex.cpp"
+"C:\xphome\AONEVC\lex\Src\UPParse.cpp"
+"C:\xphome\AONEVC\lex\Src\UPParse2.cpp"
+"C:\xphome\AONEVC\lex\Src\VerilogLex.cpp"
+"C:\xphome\AONEVC\lex\Src\VerilogSource.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP56.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP57.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/lex.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\lex\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP57.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /out:"..\lib\lexR.lib" 
+.\Release\AsmLex.obj
+.\Release\ConstLex.obj
+.\Release\ConstParse.obj
+.\Release\CSource.obj
+.\Release\DSPCLex.obj
+.\Release\FaultMsg.obj
+.\Release\FilterSource.obj
+.\Release\HashAsmLex.obj
+.\Release\HashDisAsm.obj
+.\Release\LALR.obj
+.\Release\Lex.obj
+.\Release\ParamList.obj
+.\Release\PreDefine.obj
+.\Release\PreSource.obj
+.\Release\StdAfx.obj
+.\Release\TextSource.obj
+.\Release\uECCIPLex.obj
+.\Release\uECCIPParse.obj
+.\Release\uECCIPParse2.obj
+.\Release\uHashLex.obj
+.\Release\uHashParse.obj
+.\Release\uHashParse2.obj
+.\Release\UPLex.obj
+.\Release\UPParse.obj
+.\Release\UPParse2.obj
+.\Release\VerilogLex.obj
+.\Release\VerilogSource.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP58.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AsmLex.cpp
+ConstLex.cpp
+ConstParse.cpp
+CSource.cpp
+DSPCLex.cpp
+FaultMsg.cpp
+FilterSource.cpp
+HashAsmLex.cpp
+HashDisAsm.cpp
+LALR.cpp
+Lex.cpp
+ParamList.cpp
+PreDefine.cpp
+PreSource.cpp
+TextSource.cpp
+uECCIPLex.cpp
+uECCIPParse.cpp
+uECCIPParse2.cpp
+uHashLex.cpp
+uHashParse.cpp
+Generating Code...
+Compiling...
+uHashParse2.cpp
+UPLex.cpp
+UPParse.cpp
+UPParse2.cpp
+VerilogLex.cpp
+VerilogSource.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+lexR.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

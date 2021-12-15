@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ECCIPCoreEmulate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Cpu\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ECCIPCoreEmulate.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\XPHOME\AONEVC\ECCIPCoreEmulate\Src\uECCIPEmulate.cpp"
+"C:\XPHOME\AONEVC\ECCIPCoreEmulate\Src\uECCIPEmulate2.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Cpu\LOCALS~1\Temp\RSPB.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\ECCIPCoreEmulate.lib"  .\Debug\uECCIPEmulate.obj .\Debug\uECCIPEmulate2.obj "
+<h3>Output Window</h3>
+Compiling...
+uECCIPEmulate.cpp
+uECCIPEmulate2.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+ECCIPCoreEmulate.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

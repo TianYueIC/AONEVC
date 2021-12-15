@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CommonDialog - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CommonDialog.res" /d "_DEBUG" /d "_AFXDLL" "C:\xphome\AONEVC\CommonDialog\CommonDialog.rc"" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CommonDialog.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\CommonDialog\CommonDialog.cpp"
+"C:\xphome\AONEVC\CommonDialog\CommonDialogDoc.cpp"
+"C:\xphome\AONEVC\CommonDialog\CommonDialogView.cpp"
+"C:\xphome\AONEVC\CommonDialog\MainFrm.cpp"
+"C:\xphome\AONEVC\CommonDialog\Src\romdialog.cpp"
+"C:\xphome\AONEVC\CommonDialog\Src\romsetupdlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP92.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CommonDialog.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\CommonDialog\Src\gotoline.cpp"
+"C:\xphome\AONEVC\CommonDialog\Src\romabcdlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP93.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP94.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CommonDialog.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\CommonDialog\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP94.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP95.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CommonDialog.pdb" /debug /machine:I386 /out:"Debug/CommonDialog.exe" /pdbtype:sept 
+.\Debug\CommonDialog.obj
+.\Debug\CommonDialogDoc.obj
+.\Debug\CommonDialogView.obj
+.\Debug\gotoline.obj
+.\Debug\MainFrm.obj
+.\Debug\romabcdlg.obj
+.\Debug\romdialog.obj
+.\Debug\romsetupdlg.obj
+.\Debug\StdAfx.obj
+.\Debug\CommonDialog.res
+]
+Creating command line "link.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP95.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CommonDialog.cpp
+CommonDialogDoc.cpp
+CommonDialogView.cpp
+MainFrm.cpp
+romdialog.cpp
+romsetupdlg.cpp
+c:\xphome\aonevc\commondialog\include\common.h(4) : warning C4005: 'IDD_GOTOLINE_DIALOG' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(11) : see previous definition of 'IDD_GOTOLINE_DIALOG'
+c:\xphome\aonevc\commondialog\include\common.h(5) : warning C4005: 'IDC_LINENUMBER' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(29) : see previous definition of 'IDC_LINENUMBER'
+c:\xphome\aonevc\commondialog\include\common.h(6) : warning C4005: 'IDD_ROM_DIALOG' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(10) : see previous definition of 'IDD_ROM_DIALOG'
+c:\xphome\aonevc\commondialog\include\common.h(10) : warning C4005: 'IDC_VERILOGFILENAME' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(15) : see previous definition of 'IDC_VERILOGFILENAME'
+c:\xphome\aonevc\commondialog\include\common.h(11) : warning C4005: 'IDC_OPEN_CODE_FILE' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(19) : see previous definition of 'IDC_OPEN_CODE_FILE'
+c:\xphome\aonevc\commondialog\include\common.h(12) : warning C4005: 'IDC_BROWSER' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(26) : see previous definition of 'IDC_BROWSER'
+c:\xphome\aonevc\commondialog\include\common.h(13) : warning C4005: 'IDC_GENERATE' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(17) : see previous definition of 'IDC_GENERATE'
+c:\xphome\aonevc\commondialog\include\common.h(14) : warning C4005: 'IDC_MESSAGE' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(18) : see previous definition of 'IDC_MESSAGE'
+c:\xphome\aonevc\commondialog\include\common.h(15) : warning C4005: 'IDC_MODULENAME' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(14) : see previous definition of 'IDC_MODULENAME'
+c:\xphome\aonevc\commondialog\include\common.h(16) : warning C4005: 'IDC_CHECK_NEC' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(16) : see previous definition of 'IDC_CHECK_NEC'
+c:\xphome\aonevc\commondialog\include\common.h(17) : warning C4005: 'IDC_ROMSETUP' : macro redefinition
+        c:\xphome\aonevc\commondialog\resource.h(30) : see previous definition of 'IDC_ROMSETUP'
+Generating Code...
+Compiling...
+gotoline.cpp
+romabcdlg.cpp
+c:\xphome\aonevc\commondialog\resource.h(10) : warning C4005: 'IDD_ROM_DIALOG' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(6) : see previous definition of 'IDD_ROM_DIALOG'
+c:\xphome\aonevc\commondialog\resource.h(11) : warning C4005: 'IDD_GOTOLINE_DIALOG' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(4) : see previous definition of 'IDD_GOTOLINE_DIALOG'
+c:\xphome\aonevc\commondialog\resource.h(14) : warning C4005: 'IDC_MODULENAME' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(15) : see previous definition of 'IDC_MODULENAME'
+c:\xphome\aonevc\commondialog\resource.h(15) : warning C4005: 'IDC_VERILOGFILENAME' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(10) : see previous definition of 'IDC_VERILOGFILENAME'
+c:\xphome\aonevc\commondialog\resource.h(16) : warning C4005: 'IDC_CHECK_NEC' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(16) : see previous definition of 'IDC_CHECK_NEC'
+c:\xphome\aonevc\commondialog\resource.h(17) : warning C4005: 'IDC_GENERATE' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(13) : see previous definition of 'IDC_GENERATE'
+c:\xphome\aonevc\commondialog\resource.h(18) : warning C4005: 'IDC_MESSAGE' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(14) : see previous definition of 'IDC_MESSAGE'
+c:\xphome\aonevc\commondialog\resource.h(19) : warning C4005: 'IDC_OPEN_CODE_FILE' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(11) : see previous definition of 'IDC_OPEN_CODE_FILE'
+c:\xphome\aonevc\commondialog\resource.h(26) : warning C4005: 'IDC_BROWSER' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(12) : see previous definition of 'IDC_BROWSER'
+c:\xphome\aonevc\commondialog\resource.h(29) : warning C4005: 'IDC_LINENUMBER' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(5) : see previous definition of 'IDC_LINENUMBER'
+c:\xphome\aonevc\commondialog\resource.h(30) : warning C4005: 'IDC_ROMSETUP' : macro redefinition
+        c:\xphome\aonevc\commondialog\include\common.h(17) : see previous definition of 'IDC_ROMSETUP'
+c:\xphome\aonevc\commondialog\include\romabcdlg.h(22) : error C2065: 'IDD_ASICUTILITY_DIALOG' : undeclared identifier
+c:\xphome\aonevc\commondialog\include\romabcdlg.h(22) : error C2057: expected constant expression
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+CommonDialog.exe - 2 error(s), 22 warning(s)
+</pre>
+</body>
+</html>

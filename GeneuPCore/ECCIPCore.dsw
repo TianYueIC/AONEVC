@@ -1,0 +1,104 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AOneLib"=..\AOneLib\AOneLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ECCIPCore"=.\ECCIPCore.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AOneLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ECCIPCoreEmulate
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Emulator
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ECCLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Library
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ECCIPCoreEmulate"=..\ECCIPCoreEmulate\ECCIPCoreEmulate.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ECCLib"=..\ECCLib\ECCLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Emulator"=..\Emulator\Emulator.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Library"=..\Library\Library.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,254 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AOneLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AOneLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\emulatorcore\Src\AoneDes.cpp"
+"C:\xphome\AONEVC\lex\Src\AsmLex.cpp"
+"C:\xphome\AONEVC\lex\Src\ConstLex.cpp"
+"C:\xphome\AONEVC\lex\Src\ConstParse.cpp"
+"C:\xphome\AONEVC\Common\Src\ConstString.cpp"
+"C:\xphome\AONEVC\Bar\Src\CoolBar.cpp"
+"C:\xphome\AONEVC\Bar\Src\CoolTabCtrl.cpp"
+"C:\xphome\AONEVC\Common\Src\CoreThread.cpp"
+"C:\xphome\AONEVC\lex\Src\CSource.cpp"
+"C:\xphome\AONEVC\dspasm\Src\DSPCode.cpp"
+"C:\xphome\AONEVC\dspasm\Src\DSPCode2.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\dspcoreconfigdlg.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\DSPCoreDoc.cpp"
+"C:\xphome\AONEVC\dspasm\Src\DSPDisAsm.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\emulatorconfigdlg.cpp"
+"C:\xphome\AONEVC\emulatorcore\Src\Emulatorcore.cpp"
+"C:\xphome\AONEVC\lex\Src\FaultMsg.cpp"
+"C:\xphome\AONEVC\Common\Src\Fifos.cpp"
+"C:\xphome\AONEVC\Common\Src\FileName.cpp"
+"C:\xphome\AONEVC\lex\Src\FilterSource.cpp"
+"C:\xphome\AONEVC\CommonDialog\Src\gotoline.cpp"
+"C:\xphome\AONEVC\emulatorcore\Src\IntSource.cpp"
+"C:\xphome\AONEVC\lex\Src\LALR.cpp"
+"C:\xphome\AONEVC\lex\Src\Lex.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\LineView.cpp"
+"C:\xphome\AONEVC\dspasm\Src\MasmParse.cpp"
+"C:\xphome\AONEVC\dspasm\Src\MasmParse2.cpp"
+"C:\xphome\AONEVC\Common\Src\MemCDC.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\memeryview.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\MessageBar.cpp"
+"C:\xphome\AONEVC\lex\Src\ParamList.cpp"
+"C:\xphome\AONEVC\lex\Src\PreDefine.cpp"
+"C:\xphome\AONEVC\lex\Src\PreSource.cpp"
+"C:\xphome\AONEVC\emulatorcore\Src\RC6.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\registerview.cpp"
+"C:\xphome\AONEVC\ASIC\Src\ROMEData.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\SCAK.cpp"
+"C:\xphome\AONEVC\Bar\Src\SCBButton.cpp"
+"C:\xphome\AONEVC\Bar\Src\SizingControlBar.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\SourceView.cpp"
+"C:\xphome\AONEVC\lex\Src\TextSource.cpp"
+"C:\xphome\AONEVC\lex\Src\UPLex.cpp"
+"C:\xphome\AONEVC\lex\Src\VerilogLex.cpp"
+"C:\xphome\AONEVC\emulatorcore\Src\VHardware.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\ViewBar.cpp"
+"C:\xphome\AONEVC\DSPCore\Src\watchview.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AOneLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\AOneLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /out:"Release\AOneLib.lib" 
+.\Release\AoneDes.obj
+.\Release\AsmLex.obj
+.\Release\ConstLex.obj
+.\Release\ConstParse.obj
+.\Release\ConstString.obj
+.\Release\CoolBar.obj
+.\Release\CoolTabCtrl.obj
+.\Release\CoreThread.obj
+.\Release\CSource.obj
+.\Release\DSPCode.obj
+.\Release\DSPCode2.obj
+.\Release\dspcoreconfigdlg.obj
+.\Release\dspcoredoc.obj
+.\Release\DSPDisAsm.obj
+.\Release\emulatorconfigdlg.obj
+.\Release\Emulatorcore.obj
+.\Release\FaultMsg.obj
+.\Release\Fifos.obj
+.\Release\FileName.obj
+.\Release\FilterSource.obj
+.\Release\gotoline.obj
+.\Release\IntSource.obj
+.\Release\LALR.obj
+.\Release\Lex.obj
+.\Release\LineView.obj
+.\Release\MasmParse.obj
+.\Release\MasmParse2.obj
+.\Release\MemCDC.obj
+.\Release\memeryview.obj
+.\Release\MessageBar.obj
+.\Release\ParamList.obj
+.\Release\PreDefine.obj
+.\Release\PreSource.obj
+.\Release\RC6.obj
+.\Release\registerview.obj
+.\Release\ROMEData.obj
+.\Release\SCAK.obj
+.\Release\SCBButton.obj
+.\Release\SizingControlBar.obj
+.\Release\sourceview.obj
+.\Release\StdAfx.obj
+.\Release\TextSource.obj
+.\Release\UPLex.obj
+.\Release\VerilogLex.obj
+.\Release\VHardware.obj
+.\Release\ViewBar.obj
+.\Release\watchview.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AoneDes.cpp
+AsmLex.cpp
+ConstLex.cpp
+ConstParse.cpp
+ConstString.cpp
+CoolBar.cpp
+CoolTabCtrl.cpp
+CoreThread.cpp
+CSource.cpp
+DSPCode.cpp
+DSPCode2.cpp
+dspcoreconfigdlg.cpp
+DSPCoreDoc.cpp
+DSPDisAsm.cpp
+emulatorconfigdlg.cpp
+Emulatorcore.cpp
+FaultMsg.cpp
+Fifos.cpp
+FileName.cpp
+FilterSource.cpp
+Generating Code...
+Compiling...
+gotoline.cpp
+IntSource.cpp
+LALR.cpp
+Lex.cpp
+LineView.cpp
+MasmParse.cpp
+MasmParse2.cpp
+MemCDC.cpp
+memeryview.cpp
+MessageBar.cpp
+ParamList.cpp
+PreDefine.cpp
+PreSource.cpp
+RC6.cpp
+registerview.cpp
+ROMEData.cpp
+SCAK.cpp
+SCBButton.cpp
+SizingControlBar.cpp
+SourceView.cpp
+Generating Code...
+Compiling...
+TextSource.cpp
+UPLex.cpp
+VerilogLex.cpp
+VHardware.cpp
+ViewBar.cpp
+watchview.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ECCLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ECCLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt1.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt3.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt4.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt5.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt6.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MUint.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MUIntAsm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP9.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ECCLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\ECCLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPA.tmp" 
+Creating command line "link.exe -lib /nologo /out:"ECCLibR.lib"  .\Release\MSegInt1.obj .\Release\MSegInt3.obj .\Release\MSegInt4.obj .\Release\MSegInt5.obj .\Release\MSegInt6.obj .\Release\MUint.obj .\Release\MUIntAsm.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MSegInt1.cpp
+MSegInt3.cpp
+MSegInt4.cpp
+MSegInt5.cpp
+MSegInt6.cpp
+MUint.cpp
+MUIntAsm.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ExpRamTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ExpRamTest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\ExpRamTest\ExpRamTest.cpp"
+"C:\xphome\AONEVC\ExpRamTest\ExpRamTestDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ExpRamTest.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\xphome\AONEVC\ExpRamTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ExpRamTest.pdb" /machine:I386 /out:"Release/ExpRamTest.exe" 
+.\Release\ExpRamTest.obj
+.\Release\ExpRamTestDlg.obj
+.\Release\StdAfx.obj
+.\Release\ExpRamTest.res
+\xphome\AONEVC\AOneLib\Release\AOneLib.lib
+\xphome\AONEVC\ECCLib\ECCLibR.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ExpRamTest.cpp
+ExpRamTestDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ExpRamTest.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

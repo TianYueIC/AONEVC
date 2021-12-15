@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HashcoreAsm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HashcoreAsm.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\HashcoreAsm\Src\HashAsmParse.cpp"
+"C:\xphome\AONEVC\HashcoreAsm\Src\HashAsmParse2.cpp"
+"C:\xphome\AONEVC\HashcoreAsm\Src\HashDisAsm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB2.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HashcoreAsm.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\HashcoreAsm\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSPB5.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\HashcoreAsm.lib"  .\Debug\HashAsmParse.obj .\Debug\HashAsmParse2.obj .\Debug\HashDisAsm.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HashAsmParse.cpp
+HashAsmParse2.cpp
+HashDisAsm.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+HashcoreAsm.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

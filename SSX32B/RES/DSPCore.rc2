@@ -1,0 +1,19 @@
+//
+// DSPCORE.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+#define IDCOMPILE                       3
+#define IDLINK				4
+
+#define IDD_DSP_LINK                    130
+#define IDD_DSP_ASM                     131
+#include "..\..\dspasm\include\dspmasm.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////

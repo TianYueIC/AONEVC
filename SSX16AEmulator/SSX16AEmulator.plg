@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SSX16AEmulator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP70.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SSX16AEmulator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\SSX16AEmulator\Src\VHardware.cpp"
+"C:\xphome\AONEVC\SSX16AEmulator\Src\SSX16AEmulator.cpp"
+"C:\xphome\AONEVC\SSX16AEmulator\Src\IntSource.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP70.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\SSX16AEmulator.lib"  .\Debug\StdAfx.obj .\Debug\VHardware.obj .\Debug\RC6.obj .\Debug\SSX16AEmulator.obj .\Debug\IntSource.obj "
+<h3>Output Window</h3>
+Compiling...
+SSX16AEmulator.cpp
+Generating Code...
+Compiling...
+VHardware.cpp
+IntSource.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+SSX16AEmulator.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

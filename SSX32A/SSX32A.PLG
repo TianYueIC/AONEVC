@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SSX32A - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP29D2.tmp" with contents
+[
+..\Lib\LexD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSPCore5.05.pdb" /debug /machine:I386 /out:"Debug/DSPCore5.05.exe" /pdbtype:sept 
+.\Debug\ASDSPRAMview.obj
+.\Debug\ChildFrm.obj
+.\Debug\gotoline.obj
+.\Debug\LineView.obj
+.\Debug\MainFrm.obj
+.\Debug\memeryview.obj
+.\Debug\MessageBar.obj
+.\Debug\registerview.obj
+.\Debug\romabcdlg.obj
+.\Debug\RomData.obj
+.\Debug\romdialog.obj
+.\Debug\ROMEData.obj
+.\Debug\ROMEData1.obj
+.\Debug\RomHData.obj
+.\Debug\romsetupdlg.obj
+.\Debug\sourceview.obj
+.\Debug\SSX32A.obj
+.\Debug\SSX32Acodedoc.obj
+.\Debug\SSX32Adoc.obj
+.\Debug\SSX32Amake.obj
+.\Debug\SSX32Aview.obj
+.\Debug\StdAfx.obj
+.\Debug\SXX32Aconfigdlg.obj
+.\Debug\ViewBar.obj
+.\Debug\SSX32A.res
+\work\AONEVC\Lib\AOneLibD.lib
+\work\AONEVC\lib\dspasmD.lib
+\work\AONEVC\ECCLib\ECCLibD.lib
+\work\AONEVC\Emulator\Debug\Emulator.lib
+\work\AONEVC\Lib\LibraryD.lib
+\work\AONEVC\SSX32AEmulator\Debug\SSX32AEmulator.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP29D2.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+DSPCore5.05.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

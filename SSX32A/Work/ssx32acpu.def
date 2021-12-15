@@ -1,0 +1,223 @@
+#ifndef _SSX32ACPU_DEF_
+#define _SSX32ACPU_DEF_
+//====================================================================
+//====================================================================
+// 以下是SSX32A CPU系统内部定义的标志位，详情参见文档
+//====================================================================
+#define Interrupt		RF30
+#define Zero			RF29
+#define nZero			RF28
+#define Carry			RF27
+#define nCarry			RF26
+#define Over			RF25
+#define OverUp			RF24
+#define BitZero			RF23
+#define nBitZero		RF22
+#define ExFlag			RF21
+#define nExFlag			RF20
+#define T1				RF19
+#define nT1				RF18
+#define T0				RF17
+#define nT0				RF16
+
+#define ECCaccFlag		RF5
+#define ASDSPFlag		RF4
+#define MOAnB			RF3
+
+#define TxFlag			RF1
+#define RxFlag			RF0
+
+//====================================================================
+// 以下是SSX32A CPU系统内部定义的RP端口，详情参见文档
+//====================================================================
+#define TimerData		RP0
+#define TxRData			RP1
+#define TxRDataLen		RP2
+
+#define LShiftData		RP4
+#define ACCIR			RP5
+#define EXPRAMIR		RP6
+
+#define DB1REG			RP10
+#define ASDSP			RP11
+#define ECCACC			RP12
+
+#define Task_Sel		RP17
+#define Res_Enable		RP18
+#define Res_State		RP19
+#define Res_Sel			RP20
+#define Res_Flag		RP21
+
+#define TRACE_PORT		RP23
+#define PBitMask		RP24
+#define PBitWord		RP25
+#define BarrelPort		RP26
+#define IntVector		RP27
+
+#define CPUTIME			RP22
+
+//====================================================================
+// 以下是SSX32A CPU系统内部定义的FT端口，详情参见文档
+//====================================================================
+#define RotateL24		FT0
+#define RotateL16		FT1
+#define RotateL8		FT2
+#define RotateL4		FT3
+#define ShiftR1			FT4
+#define RotateL1		FT5
+#define ShiftL16		FT6
+#define ShiftR16		FT7
+#define Not				FT8
+#define BitTest			FT9
+#define Reverse			FT13
+#define SetBit		    FT14
+#define ClearBit	    FT15
+
+//====================================================================
+// 以下是SSX32B CPU系统内部定义的RM端口，详情参见文档
+//====================================================================
+#define BitMask			RM0
+#define BitPos			RM1
+#define EXPRAMData		RM27
+
+//====================================================================
+// 以下是SSX32A CPU系统内部定义的RB端口，详情参见文档
+//====================================================================
+#define INT_EN			0x10		//中断使能
+#define RA2RAM			0x11
+#define EXPRAMEn0		0x12
+#define ACK				0x18
+#define OuterIOEn		0x19
+#define EXPRAMEn1		0x1a
+
+#define MoTrigAB		0x29
+#define MoTrigX			0x2a
+#define WMoX			0x2b
+#define DB1ToLShift		0x31
+#define LShiftToDB1		0x32
+#define TimerReset		0x33
+//////////////////////////////////////////////////////////////////////
+// 资源定义
+
+#define SELECT_INPUT	\
+	RD0 = 1;			\
+	Res_Sel = RD0;		\
+	RD0 = 0;			\
+	BitPos = RD0;		\
+	RD0 = Res_State;	\
+	SetBit(RD0);		\
+	Res_State = RD0
+
+#define SELECT_OUTPUT	\
+	RD0 = 0x800000;		\
+	RotateL8(RD0);		\
+	Res_Sel = RD0;		\
+	RD0 = 31;			\
+	BitPos = RD0;		\
+	RD0 = Res_State;	\
+	SetBit(RD0);		\
+	Res_State = RD0
+
+
+//====================================================================
+#define PRIVATE_RAM_SIZE	256
+#define SYSTEM_RAM_SIZE		256
+#define RAM_SIZE		PRIVATE_RAM_SIZE+SYSTEM_RAM_SIZE
+#define TASK_NUM			1
+#define ASDSP_NUM			1
+#define ECCACC_NUM			4
+
+//====================================================================
+// 以下是SSX32A CPU系统中断定义，详情参见文档
+//====================================================================
+#define IntTimer		0x0
+
+#define ireturn			\
+    IntVector = RD0;	\
+	return
+
+//====================================================================
+//结束仿真的宏，可以返回0-255的数字
+//====================================================================
+#define EXIT(x)			\
+	RD0 = (x)|0xc00000;	\
+	TRACE_PORT = RD0
+
+//====================================================================
+//在仿真器信息窗口显示一个数字的宏，数字范围0-255
+//====================================================================
+#define TRACE(x)		\
+	RD0 = (x)|0xa00000;	\
+	TRACE_PORT = RD0
+
+//====================================================================
+// 设置数据到寄存器、RP端口的宏定义
+// 注意除了置RD0的宏使用RD1外，全部宏都使用了RD0，置RD的宏使用了 += 
+// 置RA的宏只能是 24 bit 数据
+//====================================================================
+#define SET_RD0_DATA(x)		\
+	RD0 = x >> 8;			\
+	RotateL8(RD0);			\
+	RD1 = x & 0xff;			\
+	RD0 += RD1		
+
+#define SET_RD1_DATA(x)		\
+	RD1 = x >> 8;			\
+	RotateL8(RD1);			\
+	RD0 = x & 0xff;			\
+	RD1 += RD0					
+	
+#define SET_RD2_DATA(x)		\
+	RD2 = x >> 8;			\
+	RotateL8(RD2);			\
+	RD0 = x & 0xff;			\
+	RD2 += RD0				
+	
+#define SET_RD3_DATA(x)		\
+	RD3 = x >> 8;			\
+	RotateL8(RD3);			\
+	RD0 = x & 0xff;			\
+	RD3 += RD0					
+	
+#define SET_RA0_DATA(x)		\
+	RD0 = (x & 0xffffff);	\
+	RA0 = RD0					
+	
+#define SET_RA1_DATA(x)		\
+	RD0 = (x & 0xffffff);	\
+	RA1 = RD0					
+	
+#define SET_RA2_DATA(x)		\
+	RD0 = (x & 0xffffff);	\
+	RA2 = RD0					
+	
+#define SET_RP_DATA(port,x)	\
+	RD0 = x >> 8;			\
+	RotateL8(RD0);			\
+	RD1 = x & 0xff;			\
+	RD1 += RD0;				\
+	port = RD1
+
+#define ClearPortBit(pt, pos)\
+	push RD0;				\
+	push RD1;				\
+	RD0 = pos;				\
+	BitPos = RD0;			\
+	RD1 = pt;				\
+	ClearBit(RD1);			\
+	pt = RD1;				\
+	pop RD1;				\
+	pop RD0
+
+#define SetPortBit(pt, pos) \
+	push RD0;				\
+	push RD1;				\
+	RD0 = pos;				\
+	BitPos = RD0;			\
+	RD1 = pt;				\
+	SetBit(RD1);			\
+	pt = RD1;				\
+	pop RD1;				\
+	pop RD0
+	
+#endif //_SSX32ACPU_DEF_

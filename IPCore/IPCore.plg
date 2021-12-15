@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IPEmulator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/IPEmulator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\IPEmulator\Src\VHardware.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP169.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\IPEmulator.lib"  .\Debug\IntSource.obj .\Debug\IPCoreEmulator.obj .\Debug\RC6.obj .\Debug\StdAfx.obj .\Debug\VHardware.obj "
+<h3>Output Window</h3>
+Compiling...
+VHardware.cpp
+Creating library...
+<h3>
+--------------------Configuration: IPCore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP16A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPCore.pdb" /debug /machine:I386 /out:"Debug/IPCore.exe" /pdbtype:sept 
+.\Debug\ASDSPRAMview.obj
+.\Debug\ChildFrm.obj
+.\Debug\IPCore.obj
+.\Debug\IPCorecodedoc.obj
+.\Debug\IPCoreconfigdlg.obj
+.\Debug\IPCoredoc.obj
+.\Debug\IPCoremake.obj
+.\Debug\IPCoreview.obj
+.\Debug\LineView.obj
+.\Debug\MainFrm.obj
+.\Debug\memeryview.obj
+.\Debug\MessageBar.obj
+.\Debug\registerview.obj
+.\Debug\sourceview.obj
+.\Debug\StdAfx.obj
+.\Debug\ViewBar.obj
+.\Debug\IPCore.res
+.\Debug\romsetupdlg.obj
+.\Debug\romabcdlg.obj
+.\Debug\RomData.obj
+.\Debug\romdialog.obj
+.\Debug\ROMEData.obj
+.\Debug\gotoline.obj
+\xphome\AONEVC\Lib\AOneLibD.lib
+\xphome\AONEVC\lib\dspasmD.lib
+\xphome\AONEVC\ECCLib\ECCLibD.lib
+\xphome\AONEVC\Emulator\Debug\Emulator.lib
+\xphome\AONEVC\IPEmulator\Debug\IPEmulator.lib
+\xphome\AONEVC\lib\lexD.lib
+\xphome\AONEVC\Lib\LibraryD.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP16A.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+IPCore.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ECCLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ECCLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt1.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt3.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt4.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt5.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MSegInt6.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MUint.cpp"
+"C:\xphome\AONEVC\ECCLib\Src\MUIntAsm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ECCLib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\ECCLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP6.tmp" 
+Creating command line "link.exe -lib /nologo /out:"ECCLibD.lib"  .\Debug\MSegInt1.obj .\Debug\MSegInt3.obj .\Debug\MSegInt4.obj .\Debug\MSegInt5.obj .\Debug\MSegInt6.obj .\Debug\MUint.obj .\Debug\MUIntAsm.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MSegInt1.cpp
+MSegInt3.cpp
+MSegInt4.cpp
+MSegInt5.cpp
+MSegInt6.cpp
+MUint.cpp
+MUIntAsm.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ProtocolTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ProtocolTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\ProtocolTest\ProtocolTest.cpp"
+"C:\xphome\AONEVC\ProtocolTest\ProtocolTestDlg.cpp"
+"C:\xphome\AONEVC\ProtocolTest\ProtocolTestDlg1.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ProtocolTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\xphome\AONEVC\ProtocolTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP8.tmp" 
+Creating temporary file "D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ProtocolTest.pdb" /debug /machine:I386 /out:"Debug/ProtocolTest.exe" /pdbtype:sept 
+.\Debug\ProtocolTest.obj
+.\Debug\ProtocolTestDlg.obj
+.\Debug\ProtocolTestDlg1.obj
+.\Debug\StdAfx.obj
+.\Debug\ProtocolTest.res
+\xphome\AONEVC\ECCLib\ECCLibD.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\XUEPEN~1.AON\LOCALS~1\Temp\RSP9.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ProtocolTest.cpp
+ProtocolTestDlg.cpp
+ProtocolTestDlg1.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ProtocolTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
